@@ -329,5 +329,5 @@ export const founder = {
   bio: "Palak founded Cadence AI after spending too many hours watching operations teams do brilliant work slowed down by repetitive, manual busywork. She leads product and design, with a focus on keeping the product joyful to use.",
   email: "palakbubna603@gmail.com",
   linkedin: "https://www.linkedin.com/in/palak-bubna-661a2a380",
-  image: "/founder.jpg",
+  image: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/founder.jpg`,
 };
